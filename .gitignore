@@ -23,8 +23,6 @@ node_modules
 .turbo
 
 # Local env files
-.env
-.env.*
 !.env.example
 
 .swc*
@@ -32,3 +30,4 @@ node_modules
 apps/app/.data
 .vercel
 .env*.local
+config.bat
