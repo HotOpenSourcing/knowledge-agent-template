@@ -37,8 +37,8 @@
     "README.md"
   ],
   "scripts": {
-    "build": "tsdown",
-    "dev": "tsdown --watch",
+    "build": "node init && tsdown",
+    "dev": "node init && tsdown --watch",
     "typecheck": "tsc --noEmit",
     "test": "bun test",
     "lint": "eslint .",
